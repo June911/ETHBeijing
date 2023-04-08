@@ -123,38 +123,49 @@ ETH Beijing Hackathon 的项目需要提交到本页，PR（Pull-Request）截�
 * 是否招募队员：接受，能够为合法化研究提供程序支持和技术支持，包括提供有效建议与实际操作。
 * 如何联系：WeChat ID: ltb192
 # 5. FolioView
-  1. 项目名称：
-    FolioView  
-  2. 所选赛道：
-    Open Research
-  3. 项目图片：
-    ![theme.png](https://github.com/z6m8n7ljw/ETHBeijing-FolioView/blob/main/theme.png)
-  4. 简介
-    - 本项目是一个面向 DeFi 小白用户的多钱包信息聚合/数据分析 all-in-one 工具，旨在为 Web3 新手用户降低参与 DeFi 活动的门槛
-    - 它提供简洁友好的看板界面，支持主流资产的余额、收益和分布查询
-    - 通过用户链上资产配置的投资组合数据，结合市场数据，分析构建用户风险承受能力的用户画像，并据此 mint SBT，作为 C 端用户 DID 社交展示，以及供给 B 端的用户链上资产标签数据
-    - 通过量化统计的数学模型，为用户推荐当前资产配置下的最优化投资组合，并给出与当前资产配置的风险/收益比较，为用户优化资产配置的投资决策提供参考
-    - 它还提供各资产的信息聚合二级页面，包括实时币价、最新空投活动、此代币快讯动态和 Twitter 上中文圈 Top KOL 对此代币的最新言论
-  5. 队长和队员
-    - Front-end Engineer: 小邵
-    - Back-end Engineer: Jerry
-    - UI/UX: 王三三
-  6. 本项目在这次黑客松的目标：
-    实现从 0 到 1 的 Web 端应用开发
-  7. 黑客松前两日的进度
-    - Day 1：UI 设计首稿，首页前端开发，NFT 合约开发及部署，线上数据爬取及实时数据 API 整理
-    - Day 2：UI 设计微调，二级页面前端开发，后端 Python 数据分析/推荐服务开发，前后端交互联调
-  8. Demo 视频链接：
-    [https://youtu.be/SbjOCqfm-M8](https://youtu.be/SbjOCqfm-M8)
-  9. 项目 Github Repo 链接：
-    [https://github.com/z6m8n7ljw/ETHBeijing-FolioView](https://github.com/z6m8n7ljw/ETHBeijing-FolioView)
-  10. 是否基于之前的项目：
-    否
+* 简介：一个面向新手的轻量级多钱包投资组合工具网站，它提供简洁友好的数据分析/信息聚合界面，基于链上数据赋予用户链上信用，并给出关于优化投资组合的推荐供新手用户参考
+* 目标：Web端Demo
+* 是否招募队员：接受，需要擅长web3-react和Data Visual的前端开发
+* 如何联系：WeChat ID: jerrykicks
+* Day 1 进度：一级页面完成；钱包连接和前后端交互完成
 # 6. Auto3 Copilot
 * 简介：Auto3 Copilot 结合GPT技术，使开发者能够快速、高效地生成 Web3 自动化程序。只需输入具体的需求，比如“每天帮我定投 1000 USDC 的 ETH”/“当有某个特性的 NFT 挂单价低于XX的时候自动买入”，然后会自动生成可一键运行的代码。
 * 目标：接口数据库：创建一个用于构造 Prompt 的链上智能合约与链下应用接口的数据库（因为时间问题可能不会太全），然后可以从中检索某个合约或应用的调用方式。开发基础功能：我们将完成 Auto3 Copilot 的核心功能，包括输入需求、基于 Auto3 SDK 生成自动化代码.创建示例项目：我们将开发几个示例项目，展示Auto3 Copilot在不同场景下的实际应用，例如DeFi策略自动化、NFT市场监控以及智能合约交互等。
 * 是否招募队员：接受，欢迎编程能力强的工程师小伙伴加入（目前整体的技术栈是 TypeScript）。
 * 如何联系：WeChat ID: awolegechu
+
+## 6.1✨ 项目名称
+### Auto3 Copilot
+
+## 6.2🎊 所选赛道
+### Public Goods
+
+## 6.3🎇 项目图片
+## ![i3FYFE.jpeg](https://i.328888.xyz/2023/04/08/i3FYFE.jpeg)
+
+## 6.4🎆 简介
+#### ：Auto3 Copilot 结合GPT技术，使开发者能够快速、高效地生成 Web3 自动化程序。只需输入具体的需求，比如“每天帮我定投 1000 USDC 的 ETH”/“当有某个特性的 NFT 挂单价低于XX的时候自动买入”，然后会自动生成可一键运行的代码。Auto3 Copilot 的核心功能将包括接收用户需求、基于 Auto3 SDK 生成高质量的自动化代码，以满足各种不同的应用场景。我们将开发一系列示例项目，这些项目将展示 Auto3 Copilot 在多种实际场景中的应用，如智能合约的创建与交互、DeFi 策略的优化与组合、以及跨链资产管理等。通过这些示例项目，用户将能够更好地了解 Auto3 Copilot 的强大功能，并学会如何将其应用于自己的项目中。此外，我们还将不断优化 Auto3 SDK，以支持更多的功能和语言，为开发者提供更加便捷的开发体验。
+
+## 6.5🎡 队长和队员
+* yuchu
+* june
+* alertcat
+* 姚淼鑫
+
+## 6.6🎮 本项目在这次黑客松的目标
+* 完成 Auto3 Copilot 的核心功能，包括输入需求、基于 Auto3 SDK 生成自动化代码.
+* 创建示例项目：我们将开发几个示例项目，展示Auto3 Copilot在不同场景下的实际应用，例如智能合约交互，DeFi策略组合等。
+
+## 6.7🎃 黑客松前两日的进度
+* 4 月 6 日进度同步：完成了不同协议的地址库、每一个地址对应的合约ABI，ABI交互逻辑等并进行可行性验证。
+* 4 月 7 日进度同步：完成了模块化工具链的部署和环境部署、命令行交互设计。
+* 4 月 8 日进度同步：完成了软件的开发以及测试，并且部署了简单的本地环境。
+
+## 6.8🎄 Demo 视频链接
+### [Auto3 Copilot]()
+
+## 6.9🎀 项目 github repo 链接
+### [Auto3 Copilot](https://github.com/Auto3-io/auto3-copilot)
 # 7. Puzzle3
 * 简介：Puzzle3 是一款通过智能合约交互实现的链上解谜、答题平台，让Web3 学习平台、区块链初创团队用户能够通过更直接、简洁、有趣的方式了解各自团队的产品；
 * 目标：从零到一完成项目初期建设
@@ -187,66 +198,17 @@ ETH Beijing Hackathon 的项目需要提交到本页，PR（Pull-Request）截�
     * Scroll Alpha Testnet: [https://scroll-alpha.puzzle3.cc/](https://scroll-alpha.puzzle3.cc/)
 
 # 8. 九转以太坊
-## 8.1 项目名称
-
-Deep Stack Fantasy
-
-## 8.2 所选赛道
-
-Open Research
-
-## 8.3 项目图片
-
-![](https://s2.loli.net/2023/04/08/JQj2UwB49NoLesk.jpg)
-
-## 8.4 简介
-
-随着以太坊扩容技术的应用，智能合约的性能问题得到了改善，因此可将更多精力放在改善开发体验上。EVM 栈的访问限制是 Solidity 臭名昭著的 stack too deep 问题的源头，是时候消灭它们了。
-
-## 8.5 队长和队员
-
-- 队长： SadPencil
-- 队员：lwzhenglittle, yihao-guo, HTseaaat
-  
-## 8.6 目标
-
-给出修改后的以太坊客户端和 Solidity 编译器；并探讨新的客户端与编译器在 zkEVM 上运行的可能性。
-
-## 8.7 前两日进度
-
-- Day1
+* 简介：随着以太坊扩容技术的应用，智能合约的性能问题得到了改善，因此可将更多精力放在改善开发体验上。EVM 栈的访问限制是 Solidity 臭名昭著的 stack too deep 问题的源头，是时候消灭它们了。
+* 目标：给出修改后的以太坊客户端和 Solidity 编译器；若时间允许则在侧链运行智能合约进行演示。
+* 是否招募队员：接受，还剩 1 个空位，熟悉 EVM or 编译技术 or 链下通道的优先
+* 如何联系：WeChat ID: SadPencil
+* 第一天进度：
   - 为项目起了一个超棒的名字 `Deep Stack Fantasy`。
-  - 成功在 go-ethereum 上修改了 EVM，添加了 `DupE` 和 `SwapE` 指令及其实现。
-  - 初步阅读了 C++ 版 solidity 编译器的实现，探讨如何使用新添加的两个指令替代原有指令。
+  - 成功在 go-ethereum 上修改了 EVM，添加了 `DupE` 和 `SwapE` 指令及其实现。待测试。
+  - 初步阅读了 C++ 版 solidity 编译器的实现，探讨如何使用新添加的两个指令替代原有指令。未完成。
   - 调研了 Remix IDE 使用的 JavaScript 版本的 solidity 的编译方式，从 C++ 版 solidity 源代码编译 wasm。编译成功。
   - 具有 zkEVM 的 Scroll，是与本项目目的最为吻合的区块链 Layer-2 智能合约实现。与 Scroll 的工程师讨论零知识证明细节，尤其是确定了 [zkevm-circuits](https://github.com/scroll-tech/zkevm-circuits) 中关于 stack pointer offset 与零知识证明电路体积的关系是恒定的。因此确定在 zkEVM 上实现本项目是**完全可行**的。不过，此项目不是简单在 Scroll 上部署合约，而是修改 Scroll 的实现进而改善开发者体验，与工程师进一步讨论后，鉴于 Scroll 节点的运行要求过高（例如，至少 500 GB RAM），无法在黑客松比赛期间完成，留作未来工作。
-- Day2
-  - 初步实现了 Solidity 编译器对 `DupE` 和 `SwapE` 指令的支持并替代了原有指令。
-  - 解除了 Solidity 编译器中 stack too deep 的限制，能够编译出字节码，待测试。
-  - 上传 Emscripten Solidity 编译器到服务器以供 Remix-IDE 调用。
 
-## 8.8 Demo Video Link
-
-[Youtube Video](https://youtu.be/AiOXepNjYzw)
-
-## 8.9 GitHub Links
-
-[solidity-deep-stack](https://github.com/deep-stack-fantasy/solidity-deep-stack)
-
-[go-ethereum-deep-stack](https://github.com/deep-stack-fantasy/go-ethereum-deep-stack)
-
-## 8.10 是否基于以前项目
-
-否，本次比赛期间从零开始基于原版 [solidity](https://github.com/ethereum/solidity) 与 [go-ethereum](https://github.com/ethereum/go-ethereum) 进行修改。
-
-
-# 8.11 Demo Links
-
-[Remix-IDE with DSF Solidity Compiler](https://remix.ethereum.org/#lang=en&optimize=false&runs=200&evmVersion=null&version=https://124.220.19.52/soljson.js)
-
-[Example sol file](https://124.220.19.52/test100.sol)
-
-[DSF Solidity Compiler (solijson.js)](https://124.220.19.52/soljson.js)
 
 # 9. Web3Club
 
@@ -1040,8 +1002,6 @@ Day2：前端进行UI开发，完成基础前端逻辑，完成circom verifier�
 # 33 智客团队（ZHKMC Team）
  项目名称：Novel DAO
 * 简介：Novel DAO是一个基于区块链的去中心化小说平台，旨在促进作者与读者之间的自由合作与创作。通过Web3技术、加密货币和智能合约，实现全球访问、安全交易和社区治理，推动小说创作的创新和发展。
-* ![cover.png]([https://github.com/Novel-Dao/novel-dao/blob/main/images/pc.png](https://raw.githubusercontent.com/Novel-Dao/novel-dao/main/images/cover.jpg)
-
 * 目标：完成初版项目开发和展示，并积极深度参与以太坊生态。 
 * 是否招募队员：否。
 * 是否基于之前的项目：否。
